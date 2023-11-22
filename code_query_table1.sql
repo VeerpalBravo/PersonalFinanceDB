@@ -118,4 +118,14 @@ SELECT CONCAT((u.first_name),' ',( u.last_name)), ul.total_transactions
 FROM users_less_than_4transactions ul
 JOIN users u ON u.user_id=ul.user_id;
 
+--To fetch data with case 
+SELECT  user_id,
+CASE 
+WHEN no_of_accounts=1 THEN 'user has 1 account'
+ WHEN no_of_accounts=2 THEN 'user has 2 accounts'
+ WHEN no_of_accounts=3 THEN 'user has 3 account'
+ ELSE 'other'
+ END
+FROM users;
+
 
