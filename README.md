@@ -9,4 +9,7 @@ This database is created to manage personal finances. It has 6 tables and 1 View
 7) View(avg_monthly_salary): this view is created to fetch user_id with average monthly salary.
 This database can be updated by using ALTER table query for columns, for constraints and delete, update and insert queries for performing functions on entries. code_to_create_tables.sql in this repository has all queries related to creation and alteration of table and insertion of data, updation and deletion of data queries.
 code_query_table1.sql is the file to perform queriees related to Data Query language of database such as selection of data.
-    
+
+Following is the ERD diagram for all tables and cloumns of the database.
+   
+![ERD](https://github.com/VeerpalBravo/PersonalFinanceDB/assets/35980959/6583da0c-0be3-40a1-a769-fb407148dd97)
